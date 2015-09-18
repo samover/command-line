@@ -4,7 +4,7 @@ some useful parameters:
 -v verboser: shows all the files being moved
 -f overwrite files
 
-usage examples:
+Usage examples:
 mv file ../                 => moves 'file' to the parent folder
 mv file file2               => "moves" 'file' to the same folder and renames it to 'file2'
 mv file directory/file2
