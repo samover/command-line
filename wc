@@ -1,0 +1,14 @@
+'wc' displays by default the number of lines, words and bytes of a piped output stream.
+
+useful parameters
+-l  count lines
+-w  count words
+-c  count bytes
+-m  count characters
+
+EXAMPLES
+# Count the number of files present in your home directory
+ls ~/ | wc -l
+
+# Count the number of characters (including spaces) in a text-file
+cat file.txt | wc -m
