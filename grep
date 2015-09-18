@@ -1,0 +1,5 @@
+'grep' searches for regular expressions and the result to the screen. It is very often used after a pipe ('|') to direct the output stream to grep.
+
+usage examples:
+find ~/Projects -name "*.rb" | grep prime       => lists all the ruby files with 'prime' in the filename
+ls -lA | grep "\d\+"                            => grep takes a regular expression: returns all txt files with more than one digit in the filename
