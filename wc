@@ -6,7 +6,7 @@ useful parameters
 -c  count bytes
 -m  count characters
 
-EXAMPLES
+Usage examples
 # Count the number of files present in your home directory
 ls ~/ | wc -l
 
